@@ -184,7 +184,7 @@
     <string name="full_logcat_logging_title">完全な logcat のログ</string>
     <string name="full_logcat_logging_description">ログをフィルターなしで記録するため、アプリのパフォーマンスが低下する可能性があります。</string>
 
-    <string name="keep_screen_on">画面を常時 ON</string>
+    <string name="keep_screen_on">画面を常時 ON にする</string>
 
     <string name="developer_options">開発者向けオプション</string>
 
