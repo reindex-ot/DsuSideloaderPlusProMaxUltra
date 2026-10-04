@@ -17,7 +17,7 @@
     <string name="continue_anyway">気にせずに続行</string>
 
     <string name="missing_permission">権限が不足しています</string>
-    <string name="missing_permission_description">DSU Sideloader Plus Pro Max は、READ_LOGS の権限 (logcat の読み取りを可能にする権限) を要します。\nこの権限は、DSU のインストール進捗状況の取得、インストールのエラー診断に使用されます。\n\n** この権限を付与すると、アプリの再起動が必要になる場合があります。</string>
+    <string name="missing_permission_description">DSU Sideloader Plus Pro Max は、READ_LOGS の権限 (logcat の読み取りを可能にする権限) を要します。\nこの権限は、DSU のインストール進捗状況の取得、インストールのエラー診断に使用されます。\n\n** この権限を許可すると、アプリの再起動が必要になる場合があります。</string>
     <string name="granting_permission">サービスからの権限の許可を待機中です。少々お待ちください…</string>
 
     <string name="unlocked_bl_warn">アンロック済みのブートローダー</string>
@@ -92,7 +92,7 @@
     <string name="already_running_dsu">インストール済みの DSU を実行中の状態で別の DSU をインストールすることは対応していません。デバイスを再起動し、デフォルトの OS を起動してください。</string>
 
     <!-- Already installed DSU card -->
-    <string name="discard_dsu_otg">DSU のインストールがすでに存在します。破棄して続行しますか？\n\n**DSU のインストール環境に保存されているすべてのデータが削除されます。</string>
+    <string name="discard_dsu_otg">DSU のインストールがすでに存在します。それを破棄して続行しますか？\n\n**DSU のインストール環境に保存されているすべてのデータが削除されます。</string>
     <string name="discarding">破棄中…</string>
     <string name="discard_dsu">DSU を破棄</string>
 
@@ -156,8 +156,8 @@
     <!-- What is DSU card -->
     <string name="what_is_dsu">DSU とは何ですか？</string>
     <string name="what_is_dsu_description">DSU (Dynamic System Updates) は、Android 10 で導入された機能で、開発者がデバイスのパーティションを変更することなく Android システムイメージをテストできるようにするものです。Android 11 では、DSU によって複数のパーティションを置き換えることも可能になりました。</string>
-    <string name="view_docs">ドキュメントを表示</string>
-    <string name="learn_more">詳細を表示</string>
+    <string name="view_docs">ドキュメント</string>
+    <string name="learn_more">詳細</string>
 
     <!--
         Settings screen
@@ -168,8 +168,8 @@
     <string name="experimental_feature">試験的な機能</string>
     <string name="experimental_feature_description">この機能は試験的であり、動作が不安定になる可能性があります。よろしいですか？</string>
 
-    <string name="builtin_installer">内蔵のインストーラー</string>
-    <string name="builtin_installer_description">より高速な内部 API を使用してイメージを直接インストールします。</string>
+    <string name="builtin_installer">内蔵インストーラー</string>
+    <string name="builtin_installer_description">より高速な内部 API を使用してイメージを直接インストールします</string>
     <string name="requires_root">root 権限が必要です</string>
 
     <string name="unmount_sd_title">SD をアンマウント</string>
@@ -181,7 +181,7 @@
     <string name="storage_check_title">ストレージの確認を無効</string>
     <string name="storage_check_description">ユーザーデータストレージの確認を無効にします (推奨されません)。</string>
 
-    <string name="full_logcat_logging_title">完全な logcat のログ</string>
+    <string name="full_logcat_logging_title">完全な logcat ログ</string>
     <string name="full_logcat_logging_description">ログをフィルターなしで記録するため、アプリのパフォーマンスが低下する可能性があります。</string>
 
     <string name="keep_screen_on">画面を常時 ON にする</string>
@@ -247,7 +247,7 @@
         View logs screen
     -->
 
-    <string name="installation_logs">インストールのログ</string>
+    <string name="installation_logs">インストールログ</string>
     <string name="save_logs">ログを保存</string>
     <string name="saved_logs">ログを保存しました！</string>
 
@@ -259,7 +259,7 @@
     <string name="yes">はい</string>
     <string name="ok">OK</string>
 
-    <string name="grant">付与</string>
+    <string name="grant">許可</string>
     <string name="refuse">拒否</string>
     <string name="proceed">進む</string>
     <string name="cancel">キャンセル</string>
@@ -281,15 +281,15 @@
     <string name="language_title">言語</string>
     <string name="language_current">現在: %1$s</string>
     <string name="lang_sys">システムのデフォルト</string>
-    <string name="lang_en">English</string>
-    <string name="lang_ru">Русский</string>
+    <string name="lang_en">英語</string>
+    <string name="lang_ru">ロシア語</string>
     <string name="lang_ja">日本語</string>
     <string name="backup_dir_title">バックアップディレクトリ</string>
     <string name="backup_dir_desc">バックアップの保存先: %1$s</string>
     <string name="not_selected">未選択</string>
     <!-- GSI Hub -->
     <string name="gsi_hub_title">GSI Hub</string>
-    <string name="gsi_hub_summary">人気の GSI ROM やカスタムリンクでダウンロード</string>
+    <string name="gsi_hub_summary">人気の GSI ROM やカスタムリンクでダウンロードします</string>
     <string name="gsi_catalog">カタログ</string>
     <string name="custom_links">カスタムリンク</string>
     <string name="add_link">リンクを追加</string>
